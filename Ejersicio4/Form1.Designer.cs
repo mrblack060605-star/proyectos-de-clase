@@ -73,6 +73,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = SystemColors.GradientInactiveCaption;
             label2.Location = new Point(122, 57);
             label2.Name = "label2";
             label2.Size = new Size(114, 20);
