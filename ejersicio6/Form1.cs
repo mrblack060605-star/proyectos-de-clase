@@ -6,6 +6,7 @@ namespace ejersicio6
         {
             InitializeComponent();
 
+            // Agregar opciones al ComboBox
             comboBox1.Items.Add("Rojo");
             comboBox1.Items.Add("Verde");
             comboBox1.Items.Add("Azul");
@@ -25,4 +26,6 @@ namespace ejersicio6
             {
                 this.BackColor = Color.Blue;
             }
+        }
+    }
 }

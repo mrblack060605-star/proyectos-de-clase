@@ -1,4 +1,4 @@
-﻿namespace ejersicio6
+﻿namespace Ejersicio11
 {
     partial class Form1
     {
@@ -28,25 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            comboBox1 = new ComboBox();
+            dateTimePicker1 = new DateTimePicker();
             SuspendLayout();
             // 
-            // comboBox1
+            // dateTimePicker1
             // 
-            comboBox1.ForeColor = SystemColors.ActiveCaptionText;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(51, 38);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 0;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            dateTimePicker1.Location = new Point(26, 70);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(333, 27);
+            dateTimePicker1.TabIndex = 0;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(comboBox1);
+            ClientSize = new Size(434, 187);
+            Controls.Add(dateTimePicker1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -54,6 +51,6 @@
 
         #endregion
 
-        private ComboBox comboBox1;
+        private DateTimePicker dateTimePicker1;
     }
 }
