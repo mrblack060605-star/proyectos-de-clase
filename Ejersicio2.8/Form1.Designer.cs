@@ -1,0 +1,82 @@
+﻿namespace Ejersicio2._8
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            txtOracion = new TextBox();
+            btnContar = new Button();
+            lblResultado = new Label();
+            SuspendLayout();
+            // 
+            // txtOracion
+            // 
+            txtOracion.Location = new Point(33, 38);
+            txtOracion.Name = "txtOracion";
+            txtOracion.Size = new Size(125, 27);
+            txtOracion.TabIndex = 0;
+            // 
+            // btnContar
+            // 
+            btnContar.Location = new Point(179, 38);
+            btnContar.Name = "btnContar";
+            btnContar.Size = new Size(94, 29);
+            btnContar.TabIndex = 1;
+            btnContar.Text = "Contar";
+            btnContar.UseVisualStyleBackColor = true;
+            btnContar.Click += btnContar_Click;
+            // 
+            // lblResultado
+            // 
+            lblResultado.AutoSize = true;
+            lblResultado.Location = new Point(304, 45);
+            lblResultado.Name = "lblResultado";
+            lblResultado.Size = new Size(40, 20);
+            lblResultado.TabIndex = 2;
+            lblResultado.Text = "total";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(495, 92);
+            Controls.Add(lblResultado);
+            Controls.Add(btnContar);
+            Controls.Add(txtOracion);
+            Name = "Form1";
+            Text = "Contador de palabras";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private TextBox txtOracion;
+        private Button btnContar;
+        private Label lblResultado;
+    }
+}
